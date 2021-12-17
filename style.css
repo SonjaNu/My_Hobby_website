@@ -1,0 +1,61 @@
+
+body {font-family: 'Garamond', sans-serif;
+      background-color: #D44000;
+      position: static; }
+
+ /* navipalkin tausta */
+.navbar-custom {
+    background-color: #864000;
+    place-items: center;
+}
+
+/* teksti navipalkissa */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text{
+    color: #FFEFCF;
+}
+
+
+      
+/* skrollauspalkki oikeassa sivussa */
+.nav-link.active {
+	  color: #FFEFCF !important;
+	}        
+      
+/* karuselli */
+
+.carousel-contents h3, p{
+    color: #FF7A00;
+}
+.carousel-contents img {
+     place-items: center;
+      width: 80%; /* Set width to 100% */
+      height:100%;
+      margin-left: 100px;
+     
+      min-height:200px;
+      max-height:500px;}
+      
+/* jumbotron */      
+.photos-jumbotron img {border-radius: 60% 0%;
+                       max-width:500px;
+                       width:100%;}
+
+
+.jumbotron {background-color: #864000;
+            color:  #FFEFCF;}
+
+.jumbotron p {
+    font-size: 14pt;
+    color:  #FFEFCF;
+}
+.jumbotron h1 {
+    text-align-last: center;
+}
+
+.unsplash p {
+    font-size: 8pt;
+    color:  #FFEFCF;
+}
+      
+
